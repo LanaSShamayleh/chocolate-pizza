@@ -1,0 +1,201 @@
+* {
+
+box-sizing: border-box;
+padding:15px;
+}
+
+body {
+
+    color:rgb(105, 71, 79)
+}
+
+span#main-logo img ,span#header{
+
+    display: inline-block;
+}
+
+span#main-logo {
+
+float: left;
+padding: 10px;
+
+}
+
+span#img-cons{
+
+    float: right;
+    margin-bottom: 35px;
+    padding :50px 10px 0px 0px;
+
+}
+
+h1 {
+
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    font-size: 45px;
+    padding-top: 15px;
+}
+
+h2{
+
+    font-size: 36px;
+    font-family: impact;
+    padding-bottom: 10px;
+    color: black;
+}
+
+h3{
+
+    font-family: arial;
+}
+
+img[src*="rss"]{
+
+    margin-left: 20px;
+}
+h5{
+
+font-weight: bold; 
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+span#LogoPrint h6{
+
+    font-weight: bold; 
+   font-family: serif;
+    }
+
+main hr {
+    border: 0;
+    background: url(img/hr-img.png);
+     height: 30px;
+     clear:both;
+
+}
+
+span#LogoPrint {
+
+    float:right;
+font-size:18px;
+
+}
+
+span#LogoPrint img ,span#LogoPrint h6 {
+
+display:inline;
+}
+
+
+img[src*="cho"]{
+
+margin:10px auto;
+display:block;
+width:100;
+}
+main>p{
+
+font-family: 'Times New Roman', Times, serif ;
+font-size: 20px;
+margin:30px 60px;
+min-inline-size: 30px;
+
+}
+
+
+div#recipe {
+    clear: both;
+   overflow:auto;
+   margin:auto;
+   height:305px;
+   width:899px;
+   background-image:url(img/list-bg.png) ;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+fieldset{
+
+    border:none;
+    font-size: 30px;
+    line-height: 48px;
+
+}
+
+fieldset#first {
+   
+   float:left;
+    margin-left: 10%;
+  }
+  fieldset#second {
+
+    float:right;
+    margin-right: 10%;
+  }
+
+div#owner {
+
+    float:left;
+}
+
+div#owner img {
+
+   padding-right: 10px;
+}
+
+div#info {
+
+ width:500px;
+ line-height: 30px; 
+ font-family: Georgia, 'Times New Roman', Times, serif;  
+ font-size:20px;
+
+}
+
+div#owner img ,div#info {
+    display: inline-block;
+
+}
+
+.btn {
+
+    float:right;
+    font-size:30px;
+    background-color: rgb(167, 70, 91);
+    color:white;
+    border:rgb(167, 70, 91);
+    padding: 15px 30px;
+
+}
+
+
+footer{
+
+clear:both;
+position:relative;
+text-align: center;
+padding-top: 25px;
+font-family: arial;
+line-height: 35px;
+color: rgb(167, 70, 91);
+}
+
+footer hr {
+
+    padding:0px;
+    margin:35px auto;
+
+}
+
+hr#imgs {
+content:url(img/small-logo.png);
+box-sizing: content-box;
+left:50%;
+top: -7px;
+background-color: white;
+position:absolute;
+padding:15px;
+border:0;
+height:30px;
+display: block;
+}

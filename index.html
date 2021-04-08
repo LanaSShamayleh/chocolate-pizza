@@ -5,36 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate Pizza</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <span id="logo">
+        <span id="main-logo">
             <img src="img/logo.png" alt="logo">
             <span id="header">
                 <h1> Delicious</h1>
                 <h3> THE BEST FOOD BLOG ON THE WEB</h3>
             </span>
-            <span id="icons">
-                <img src="img/fb-icon.png">
-                <img src="img/twit-icon.png">
-                <img src="img/gp-icon.png">
-                <img src="img/insta-icon.png">
-                <img src="img/flic-icon.png">
-                <img src="img/pint-icon.png">
-                <img src="img/rss-icon.png">
-                <img src="img/mail-icon.png">
-            </span>
+        </span>
+        <span id="img-cons">
+            <img src="img/fb-icon.png">
+            <img src="img/twit-icon.png">
+            <img src="img/gp-icon.png">
+            <img src="img/insta-icon.png">
+            <img src="img/flic-icon.png">
+            <img src="img/pint-icon.png">
+            <img src="img/rss-icon.png">
+            <img src="img/mail-icon.png">
         </span>
     </header>
 
     <main>
         <hr>
+        <br>
+        <br>
+
         <h2> Chocolate pizza</h2>
         <h4>POSTED ON 15 DEC 2013/DESSERTS</h4>
-        <span id="print"><img src="img/print-icon.png">
+        <span id="logoPrint">
+            <img src="img/print-icon.png">
+            <h6>Print</h6>
         </span>
+
         <img src="img/choco-pizza.png">
         <p>For the fig-swirl: Melt butter over medium heat in saucepan. Add brown sugar and stir to dissolve. Halve all
             of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, string frequently,
@@ -49,18 +56,64 @@
             nuts. Continue to process for +/- 10 minutes. pour semi-frozen mixture into a pyrex dish or glass
             tupperware. Freeze for at least two hours before serving.
         </p>
-        <img src="img/list-bg.png">
+       
+        <div id="recipe">
+        
+           <fieldest id="first">
+                <input type="checkbox" >
+                <label > 11/2 cups milk</label><br>
+                <input type="checkbox" >
+                <label > 1/2 cup mascarpone</label><br>
+                <input type="checkbox" >
+                <label > 1/2 tsp pink salt</label><br>
+                <input type="checkbox"  >
+                <label > black Mission Figs</label><br>
+                <input type="checkbox" >
+                <label > 1/2 cup brown sugar</label><br>
+                <input type="checkbox">
+                <label > 2-4 tbsp water</label><br>
+            </fieldest>
+            
+            <fieldest id="second">
+                <input type="checkbox"  >
+                <label >11/2 cups heavy cream</label><br>
+                <input type="checkbox" >
+                <label > 4/3 granulated sugar</label><br>
+                <input type="checkbox" >
+                <label > 2 egg yolks</label><br>
+                <input type="checkbox" >
+                <label > 1 lemon, juiced</label><br>
+                <input type="checkbox"  >
+                <label > 2 tbsp butter</label><br>
+                <input type="checkbox"  >
+                <label > 1 cup honey roasted pecans, roughly chopped</label><br>
+            </fieldset>
+        
+        </div>
+    
+
         <hr>
-        <span id="auther">
+        <br>
+        <div id="owner">
             <img src="img/van-pic.png">
-            <h6>Vanessa Stevenson</h6>
-            <p>Food enthusiast, photography fan. Add a pinch pf raw foodsim and that's pretty much who I am</p>
-            <button>SHARE RECIPE</button>
-        </span>
-        <hr>
-        <img src="img/small-logo.png">
+
+            <div id="info">
+                <h5>Vanessa Stevenson</h5>
+
+                <p>Food enthusiast, photography fan. Add a pinch pf raw foodsim and that's pretty much who I am</p>
+            </div>
+
+        </div>
+        </div>
+
+        <button class="btn">SHARE RECIPE</button>
+
     </main>
+
     <footer>
+
+        <hr id="imgs">
+        <hr>
         <p>Delicious &copy;2013.All Rights Reserved</p>
         <p>Proudly published with chost</p>
     </footer>
